@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellawood Designs - Arts & Crafts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .form-control {
+            margin: 1rem 0;
+        }
+        .form-control input, .form-control textarea, .form-control select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bellawood Designs - Your Home for Arts and Crafts</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#community">Community</a>
+        <a href="#contact">Contact</a>
+        <a href="#hr">HR Area</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Welcome to Bellawood Designs</h2>
+        <p>
+            Discover the joy of creativity with Bellawood Designs, a premier destination for arts and crafts enthusiasts across the United States.
+            Whether you’re an experienced artisan or just beginning your creative journey, our website offers everything you need to bring your ideas to life.
+        </p>
+    </div>
+
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>
+            At Bellawood Designs, we celebrate the beauty of handmade art and the passion behind every craft. 
+            We are committed to providing sustainable, eco-friendly products and supporting local artisans through exclusive collaborations and showcases.
+        </p>
+    </div>
+
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>High-quality crafting supplies</li>
+            <li>DIY project kits and tutorials</li>
+            <li>Custom woodwork and artisanal designs</li>
+            <li>Virtual workshops and creator community</li>
+        </ul>
+    </div>
+
+    <div class="container" id="products">
+        <h2>Our Products</h2>
+        <p>Explore our extensive collection of high-quality supplies, including painting and drawing tools, DIY kits, textiles, woodworking materials, and more.</p>
+    </div>
+
+    <div class="container" id="community">
+        <h2>Join Our Community</h2>
+        <p>Be part of our vibrant community of creators—share your work, attend virtual workshops, and shop one-of-a-kind handmade pieces.</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-control">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div class="container" id="hr">
+        <h2>HR Area</h2>
+        <p>Manage staff, conduct interviews, and streamline hiring processes all in one place.</p>
+        <form action="#" method="POST">
+            <div class="form-control">
+                <label for="position">Position Applied For</label>
+                <select id="position" name="position">
+                    <option value="designer">Designer</option>
+                    <option value="craftsman">Craftsman</option>
+                    <option value="manager">Manager</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="resume">Upload Resume</label>
+                <input type="file" id="resume" name="resume" required>
+            </div>
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bellawood Designs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
